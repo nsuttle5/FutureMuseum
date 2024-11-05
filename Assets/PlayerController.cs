@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    void Start()
+    void Awake()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
+
     public GameObject player;
     public float speed = 5.0f;
     public float mouseSensitivity = 100.0f;
