@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject player;
     public float speed = 5.0f;
+    public float sprintSpeed = 10.0f;
     public float mouseSensitivity = 100.0f;
     private float rotationX = 0.0f;
     private float rotationY = 0.0f;
@@ -30,8 +31,11 @@ public class PlayerController : MonoBehaviour
         forward.Normalize();
         right.Normalize();
 
+        // Check if the sprint key is pressed
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : speed;
+
         Vector3 movement = forward * moveVertical + right * moveHorizontal;
-        player.transform.Translate(movement * speed * Time.deltaTime, Space.World);
+        player.transform.Translate(movement * currentSpeed * Time.deltaTime, Space.World);
 
         // Handle camera rotation
         rotationX += Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
