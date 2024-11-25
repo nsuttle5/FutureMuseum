@@ -4,6 +4,7 @@ using TMPro; // Import TextMeshPro namespace
 public class InteractionSystem : MonoBehaviour
 {
     public GameObject uiPanel; // The UI Panel
+    public ScrollingText scrollingText;
     public TextMeshProUGUI uiText; // UI TextMeshProUGUI component
     private bool isUiActive = false;
     private InteractableObject currentObject;
@@ -35,6 +36,8 @@ public class InteractionSystem : MonoBehaviour
                 uiPanel.SetActive(true);
                 uiText.gameObject.SetActive(true);
                 isUiActive = true;
+
+                scrollingText.StartScrolling(currentObject.objectText);
             }
         }
     }
