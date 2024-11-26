@@ -2257,6 +2257,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4564305922712196489, guid: 36215380494f7a946aaee8d977766ed3, type: 3}
+--- !u!1001 &12594082289071757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.98927355
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 59.683674
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.056449
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143445055990334337, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7523630151614290235, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
+      propertyPath: m_Name
+      value: OceaniaBanner
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 194cf10c1af1cf348ab862cb67e4c90f, type: 3}
 --- !u!1001 &5108834843974733509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2456,3 +2513,4 @@ SceneRoots:
   - {fileID: 143495273}
   - {fileID: 6200695760062642909}
   - {fileID: 5108834843974733509}
+  - {fileID: 12594082289071757}
