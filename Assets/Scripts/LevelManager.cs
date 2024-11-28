@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     public string sceneName;
+
+    public GameObject optionsPanel;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,5 +27,15 @@ public class LevelManager : MonoBehaviour
     public void quitGame()
     {
         Application.Quit();
+    }
+
+    public void OpenOptions()
+    {
+        optionsPanel.SetActive(true);
+    }
+
+    public void CloseOptions()
+    {
+        optionsPanel.SetActive(false);
     }
 }

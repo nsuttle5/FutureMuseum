@@ -6,6 +6,10 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        if (optionsPanel == null)
+        {
+            Debug.LogWarning("Options Panel is not assigned in the Inspector");
+        }
     }
 
     public Rigidbody playerRigidbody;
@@ -14,6 +18,8 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 100.0f;
     private float rotationX = 0.0f;
     private float rotationY = 0.0f;
+
+    public GameObject optionsPanel;
 
     // Update is called once per frame
     void Update()
@@ -24,6 +30,19 @@ public class PlayerController : MonoBehaviour
         rotationY = Mathf.Clamp(rotationY, -90.0f, 90.0f);
 
         Camera.main.transform.localRotation = Quaternion.Euler(rotationY, rotationX, 0.0f);
+
+        // Handle options panel toggle
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (optionsPanel.activeSelf)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
     }
 
     // FixedUpdate is called once per physics frame
@@ -47,5 +66,21 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = forward * moveVertical + right * moveHorizontal;
         playerRigidbody.MovePosition(playerRigidbody.position + movement * currentSpeed * Time.fixedDeltaTime);
+    }
+
+    void PauseGame()
+    {
+        optionsPanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        Time.timeScale = 0f; // Pause the game
+    }
+
+    public void ResumeGame()
+    {
+        optionsPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        Time.timeScale = 1f; // Resume the game
     }
 }
