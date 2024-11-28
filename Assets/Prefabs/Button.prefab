@@ -99,8 +99,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8cdc6acb6f43e4a8b6d1ad22bb13d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectText: Button
   interactionRange: 3
+  objectTexts:
+  - Lmao
+  - Maybe
+  currentTextIndex: 0
 --- !u!64 &8290116927946271017
 MeshCollider:
   m_ObjectHideFlags: 0
