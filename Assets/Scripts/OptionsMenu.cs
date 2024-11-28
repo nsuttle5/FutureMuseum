@@ -29,7 +29,6 @@ public class OptionsMenu : MonoBehaviour
         {
             player.GetComponent<PlayerController>().ResumeGame();
         }
-        Time.timeScale = 1; // Unpause the game
     }
 
     public void OnVolumeChange()
