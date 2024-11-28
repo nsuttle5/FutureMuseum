@@ -151,8 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8cdc6acb6f43e4a8b6d1ad22bb13d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectText: It works
   interactionRange: 3
+  objectTexts: []
+  currentTextIndex: 0
 --- !u!65 &4847789
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1416,8 +1417,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8cdc6acb6f43e4a8b6d1ad22bb13d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectText: LOL
   interactionRange: 3
+  objectTexts: []
+  currentTextIndex: 0
 --- !u!65 &791248633
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2423,8 +2425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa8cdc6acb6f43e4a8b6d1ad22bb13d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectText: Test
   interactionRange: 3
+  objectTexts: []
+  currentTextIndex: 0
 --- !u!65 &1466770303
 BoxCollider:
   m_ObjectHideFlags: 0
