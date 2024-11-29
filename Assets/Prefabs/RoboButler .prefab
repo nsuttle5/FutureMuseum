@@ -135,6 +135,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 0a53d4ef9910e624a8646fbd3531cb53, type: 3}
       insertIndex: -1
       addedObject: {fileID: 192264615268076786}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 0a53d4ef9910e624a8646fbd3531cb53, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7376226391493990515}
     - targetCorrespondingSourceObject: {fileID: -516098083770646512, guid: 0a53d4ef9910e624a8646fbd3531cb53, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4477336003453192743}
@@ -400,3 +403,19 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 0a53d4ef9910e624a8646fbd3531cb53, type: 3}
+--- !u!114 &7376226391493990515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8425281790959435019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8cdc6acb6f43e4a8b6d1ad22bb13d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionRange: 3
+  objectTexts:
+  - Yo what up dawg fam
+  currentTextIndex: 0
