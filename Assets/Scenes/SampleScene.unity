@@ -1310,8 +1310,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ffe1ee831be8314479134ff86cb6c830, type: 3}
+  m_Resource: {fileID: 8300000, guid: ffe1ee831be8314479134ff86cb6c830, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.207
   m_Pitch: 1
@@ -12895,8 +12895,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 3eeaa7f7fff81524aae83ede3dfcf985, type: 3}
+  m_Resource: {fileID: 8300000, guid: 3eeaa7f7fff81524aae83ede3dfcf985, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.207
   m_Pitch: 1
@@ -13081,8 +13081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: ffe1ee831be8314479134ff86cb6c830, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &256068477
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13324,8 +13324,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b0547899ef473b547a1ad3bd1e2ee27a, type: 3}
+  m_Resource: {fileID: 8300000, guid: b0547899ef473b547a1ad3bd1e2ee27a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.207
   m_Pitch: 1
@@ -21057,8 +21057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: 3eeaa7f7fff81524aae83ede3dfcf985, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &581963044
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28126,8 +28126,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: b0547899ef473b547a1ad3bd1e2ee27a, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &818630136
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28551,8 +28551,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: 675bba20a34037549bb5af8401d73a56, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &926780057
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36021,8 +36021,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9aafb81ad4e093744a20c96a9e6c66d0, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9aafb81ad4e093744a20c96a9e6c66d0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.207
   m_Pitch: 1
@@ -36180,8 +36180,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: 731195d75ec880f4e9128b5a0a0dc48c, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &1216234817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51279,8 +51279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b4781e7c8edb1140a77bba938cef2ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterMusic: {fileID: 0}
-  exitMusic: {fileID: 0}
+  enterMusic: {fileID: 8300000, guid: 9aafb81ad4e093744a20c96a9e6c66d0, type: 3}
+  exitMusic: {fileID: 8300000, guid: 445e847c968ca8d4ab5e025590b1a059, type: 3}
 --- !u!65 &1853950570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61998,10 +61998,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 731195d75ec880f4e9128b5a0a0dc48c, type: 3}
+  m_Resource: {fileID: 8300000, guid: 731195d75ec880f4e9128b5a0a0dc48c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.207
+  m_Volume: 0.178
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -62954,8 +62954,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 675bba20a34037549bb5af8401d73a56, type: 3}
+  m_Resource: {fileID: 8300000, guid: 675bba20a34037549bb5af8401d73a56, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.207
   m_Pitch: 1

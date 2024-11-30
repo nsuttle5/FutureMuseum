@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
         // Add an AudioSource component and configure it.
         audioSource = gameObject.AddComponent<AudioSource>();
         audioSource.loop = true;
-        audioSource.volume = 1f;
+        audioSource.volume = 0.5f;
 
         // Play the default clip (Play-on-Awake audio) if it exists.
         if (defaultClip != null)
@@ -38,7 +38,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void PlayMusic(AudioClip newClip, float fadeDuration = 1f)
+    public void PlayMusic(AudioClip newClip, float fadeDuration = 0.5f)
     {
         if (isFading) return;  // Prevent overlapping fades.
 
@@ -50,6 +50,16 @@ public class AudioManager : MonoBehaviour
 
     private IEnumerator SmoothTransition(AudioClip newClip, float fadeDuration)
     {
+        // Preload the new clip to avoid stuttering.
+        if (newClip.loadState != AudioDataLoadState.Loaded)
+        {
+            newClip.LoadAudioData();
+            while (newClip.loadState != AudioDataLoadState.Loaded)
+            {
+                yield return null;
+            }
+        }
+
         isFading = true;
         float startVolume = audioSource.volume;
 

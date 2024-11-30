@@ -9,11 +9,7 @@ public class OptionsMenu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        volumeSlider.value = PlayerPrefs.GetFloat("volume", 0.5f);
-        sensitivitySlider.value = PlayerPrefs.GetFloat("MouseSensitivity", 0.5f);
-
-        AudioListener.volume = volumeSlider.value;
-        SetMouseSensitivity(sensitivitySlider.value);
+        InitializeSettings();
     }
 
     // Update is called once per frame
@@ -50,5 +46,14 @@ public class OptionsMenu : MonoBehaviour
         {
             player.GetComponent<PlayerController>().mouseSensitivity = sensitivity;
         }
+    }
+
+    public void InitializeSettings()
+    {
+        volumeSlider.value = PlayerPrefs.GetFloat("volume", 0.5f);
+        sensitivitySlider.value = PlayerPrefs.GetFloat("MouseSensitivity", 0.5f);
+
+        AudioListener.volume = volumeSlider.value;
+        SetMouseSensitivity(sensitivitySlider.value);
     }
 }
