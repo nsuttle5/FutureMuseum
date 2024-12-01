@@ -85,4 +85,28 @@ public class AudioManager : MonoBehaviour
 
         isFading = false;
     }
+
+    public void FadeOutMusic(float fadeDuration = 0.5f)
+    {
+        if (isFading) return;  // Prevent overlapping fades.
+
+        StartCoroutine(FadeOutCoroutine(fadeDuration));
+    }
+
+    private IEnumerator FadeOutCoroutine(float fadeDuration)
+    {
+        isFading = true;
+        float startVolume = audioSource.volume;
+
+        // Fade out the music.
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= startVolume * Time.deltaTime / fadeDuration;
+            yield return null;
+        }
+
+        audioSource.Stop();
+        audioSource.volume = startVolume; // Reset volume for reuse.
+        isFading = false;
+    }
 }

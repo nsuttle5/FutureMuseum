@@ -1,34 +1,47 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class LevelManager : MonoBehaviour
 {
     public string sceneName;
-
     public string startingMenu;
-
     public GameObject optionsPanel;
+    public AudioSource audioSource; // Assign the AudioSource in the Inspector
+    public float fadeDuration = 0.5f; // Duration of the fade in seconds
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    // Fade audio and change scene
     public void changeScene()
     {
+        StartCoroutine(FadeOutAndChangeScene());
+    }
+
+    private IEnumerator FadeOutAndChangeScene()
+    {
+        if (audioSource != null)
+        {
+            float startVolume = audioSource.volume;
+
+            while (audioSource.volume > 0)
+            {
+                audioSource.volume -= startVolume * Time.deltaTime / fadeDuration;
+                yield return null;
+            }
+
+            audioSource.Stop();
+            audioSource.volume = startVolume; // Reset for potential reuse
+        }
+
         SceneManager.LoadScene(sceneName);
     }
 
     public void returnMenu()
     {
-        // Unfreeze all frozen game objects
+        if (AudioManager.Instance != null)
+        {
+            AudioManager.Instance.FadeOutMusic(0.5f); // Adjust fadeDuration as needed.
+        }
+
         foreach (GameObject obj in GameObject.FindObjectsOfType<GameObject>())
         {
             if (obj.GetComponent<Rigidbody>() != null)
@@ -37,10 +50,7 @@ public class LevelManager : MonoBehaviour
             }
         }
 
-        // Unpause the game
         Time.timeScale = 1;
-
-        // Load the starting menu scene
         SceneManager.LoadScene(startingMenu);
     }
 
@@ -58,4 +68,6 @@ public class LevelManager : MonoBehaviour
     {
         optionsPanel.SetActive(false);
     }
+
+
 }
