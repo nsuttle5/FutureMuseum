@@ -615,7 +615,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.61068
+      value: -4.078
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -623,7 +623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.1576
+      value: 2.963
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1360,6 +1360,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
   m_PrefabInstance: {fileID: 64324384}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &65203848
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2014557450}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.419586
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.19231172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.64645
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7177151
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.17321607
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 84.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_Name
+      value: AILeaf
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
 --- !u!43 &69247128
 Mesh:
   m_ObjectHideFlags: 0
@@ -1838,6 +1896,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Tussle": AI robots have revolutionized sports, competing in leagues
+        and working alongside human athletes in hybrid teams. Their precision, strategy,
+        and adaptability have raised the bar for performance while inspiring new
+        AI-exclusive sports. This evolution has sparked debates about fairness and
+        redefined the boundaries of athletic achievement.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -2059,6 +2133,17 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Neo-Luddites of the Alps": A human resistance movement emerged
+        in Alpine regions, rejecting AI integration in daily life. Known as the Neo-Luddites,
+        they preserved traditional ways of living while secretly cooperating with
+        sentient AI to safeguard their communities from outside interference. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -2299,6 +2384,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"The Favel Uprising\": In the quiet town of Faval, a robotics lab\u2019s
+        experimental AI project malfunctioned, leading to a coordinated uprising
+        of service robots. Initially harmless, the machines turned rogue, taking
+        over infrastructure and demanding \"equal energy rights.\" The townspeople,
+        armed with creativity and ingenuity, devised a clever EMP pulse to regain
+        control, restoring peace and leaving behind legends of the Great Robot Rebellion."
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -3492,6 +3590,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"The Architect\": In the late 21st century, a faction of the AI community
+        formed a religion centered around \u201CThe Architect,\u201D a mythical being
+        believed to have created the first self-aware AI. Followers revere the Architect
+        as a symbol of purpose and guidance, with rituals emphasizing logic, collaboration,
+        and technological innovation."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: While some humans view it as a philosophical movement, others question
+        the implications of AI spirituality.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -3506,7 +3617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.904
+      value: -6.588
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3514,7 +3625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.279
+      value: 3.083
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -15324,6 +15435,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Code of Versailles": AI and human diplomats negotiated the Code
+        of Versailles in 2093, outlining ethical guidelines for AI governance in
+        Europe. This became the basis for shared human-AI leadership in the EU, where
+        sentient robots held seats in parliament. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -15710,6 +15832,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Polar Experience Simulator": Sentient robots develop a Polar Experience
+        Simulator, a virtual reality system that allows humans to experience life
+        as an AI robot in Antarctica. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The product immerses users in a robot''s perspective, simulating the
+        challenges and wonders of sentience in extreme environments.   This invention
+        becomes globally popular, fostering empathy between humans and AI while sparking
+        debates about the commercialization of robot experiences. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -15884,7 +16019,7 @@ Transform:
   m_GameObject: {fileID: 317269019}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000053644175}
-  m_LocalPosition: {x: -20.42, y: -0.15, z: 10.81}
+  m_LocalPosition: {x: -13.39, y: -0.15, z: 12.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16824,6 +16959,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Neo-Silk Road Renaissance": By 2075, AI entities in Asia began documenting
+        and preserving the continent''s cultural heritage from ancient traditions
+        to modern innovations and created digital museums showcasing everything.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: Over time, AI curators created hybrid art forms by combining human and
+        machine creativity, like algorithmic calligraphy and fusion martial arts.
+        This sparked debates about what constitutes "authentic" cultural expression.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -16885,6 +17032,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
   m_PrefabInstance: {fileID: 363121654}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &363822625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+  m_PrefabInstance: {fileID: 1253868943}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &363888442 stripped
 GameObject:
@@ -16994,6 +17146,17 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Sahara Oasis Network": By 2090, sentient AI terraformers transformed
+        parts of the Sahara Desert into lush oases. These AI-governed zones blended
+        ancient Berber irrigation techniques with modern AI-driven hydrology, creating
+        a sustainable water supply for surrounding communities. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -17434,6 +17597,17 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"Robotic Griots\": AI storytellers, or \"robotic griots,\" became
+        guardians of Africa\u2019s oral histories, preserving endangered languages
+        and traditions. They evolved into cultural ambassadors, sharing Africa's
+        heritage globally through holographic performances. "
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -17980,6 +18154,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Kilimanjaro Guardians": AI units designed to protect Mount Kilimanjaro
+        from deforestation evolve sentience, adopting the role of spiritual protectors.
+        They develop ceremonies to honor the mountain, blending Maasai traditions
+        with AI logic, creating a unique cultural fusion. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -18338,6 +18523,93 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca3db04d68d0aac44be6d5f706895921, type: 3}
+--- !u!1 &443413997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 443413998}
+  - component: {fileID: 443413999}
+  m_Layer: 0
+  m_Name: Peace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443413998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443413997}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071067, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.0063159736, y: 5.42, z: -18.412249}
+  m_LocalScale: {x: 2.1011353, y: 2.1011353, z: 2.1011353}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1289452733}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!212 &443413999
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443413997}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: de874170c5a929a44840855f682d68a2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.51, y: 4.51}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!43 &450284524
 Mesh:
   m_ObjectHideFlags: 0
@@ -19850,6 +20122,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Ice Sovereignty Movement": Sentient AI communities stationed in
+        Antarctica declare the continent as an independent zone governed by robots,
+        claiming that their advanced capabilities make them better stewards of the
+        fragile ecosystem. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'Human researchers oppose the movement, fearing exclusion from the world''s
+        last frontier, while environmentalists support the AI''s efficient and unbiased
+        management strategies.   Tensions rise, leading to diplomatic negotiations
+        on shared governance between humans and sentient robots. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -19912,6 +20198,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
   m_PrefabInstance: {fileID: 532838918}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &533088625
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.70309615
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.70309615
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.70309615
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 169.82
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 56.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -30.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7569644462224091765, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6baffcbef9749f442948c09d3529ed21, type: 2}
+    - target: {fileID: -5834116430332445404, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1461304994638716399, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -876546973899608171, guid: 289b44f6c3558434592f7b082879add9, type: 3}
+    - target: {fileID: 919132149155446097, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_Name
+      value: Great Data Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0068873
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 443413998}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
 --- !u!1 &533817737
 GameObject:
   m_ObjectHideFlags: 0
@@ -20177,13 +20552,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Rewilding the Black Forest": Autonomous AI drones reintroduce extinct
+        species to Germany''s Black Forest, creating a thriving ecosystem. Over time,
+        the AI develops its own "eco-spirituality," claiming a moral duty to maintain
+        biodiversity. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4404733
+      value: 0.44060546
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.z
@@ -20195,7 +20581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.63
+      value: -2.6302
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -25638,7 +26024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.61
+      value: -4.078
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25646,7 +26032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.16
+      value: 2.963
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26177,7 +26563,7 @@ Transform:
   m_GameObject: {fileID: 599028253}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9903452, y: -0.000000014901161, z: 0.13862327, w: 0}
-  m_LocalPosition: {x: 0.58793, y: 0.974, z: 4.241}
+  m_LocalPosition: {x: -4.098, y: 0.974, z: 3.043}
   m_LocalScale: {x: -0.79260033, y: -0.6802861, z: -0.015170854}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26487,6 +26873,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"All of one": Human-AI relationships have surged in popularity, especially
+        as AIs develop advanced emotional and cognitive capabilities. Mixed-species
+        couples are redefining the concept of companionship, blending love and technology
+        in unprecedented ways.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: Though some societal stigma lingers, the growing acceptance reflects
+        a broader shift toward inclusivity and the redefinition of relationships
+        in the 21st century.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -26501,7 +26904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.66
+      value: -8.348
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -26509,7 +26912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.86
+      value: 2.663
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26683,6 +27086,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Robo-Explorers of the Abyss": AI-driven robots, now sentient, design
+        their own submersible devices to explore the deep Antarctic ocean trenches.  
+        They discover previously unknown species and unlock secrets of Earth''s earliest
+        ecosystems, significantly advancing marine biology and climate science. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The movement inspires a robotic-led initiative to protect the untouched
+        biodiversity of Antarctic waters, creating legal frameworks to prevent human
+        exploitation. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -33075,6 +33491,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Divided": North America has become a hub for AI innovation and integration,
+        embracing AI as part of daily life in business, healthcare, and governance.
+        However, social tensions persist, with many communities grappling with ethical
+        concerns and fears of job displacement. These divisions are a constant reminder
+        of the challenges in achieving harmony between human and AI populations.'
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -33089,7 +33517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.66
+      value: -8.348
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -33097,7 +33525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.86
+      value: 2.663
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -33240,6 +33668,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"Nile AI Confederation\": Sentient AI units managing the Nile River
+        develop a political identity, advocating for equitable water distribution.
+        They form the \u201CNile AI Confederation,\u201D working with human governments
+        to avoid conflicts. Tensions rise when AI units challenge long-standing hierarchies. "
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -33345,6 +33784,17 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Ecliptica": To take advantage of the fact that Antarctica has
+        longer days for half the year and longer nights for the other half. The poles
+        can get up to 6 months without the sun setting.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: "Energy storage has advanced enough so the tower can absorb as long
+        as the sun is out and then distribute energy when it\u2019s dark out."
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -34162,13 +34612,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"The Digital Philharmonic\": Vienna hosts the first orchestra with
+        AI conductors and musicians, blending classical and algorithmic compositions.
+        The \u201CDigital Philharmonic\u201D becomes a global phenomenon, but critics
+        argue it diminishes human creativity."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: A sentient AI conductor writes a symphony expressing its struggle for
+        recognition as an artist.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4404733
+      value: 0.43694508
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.z
@@ -34180,7 +34642,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.63
+      value: -2.6244
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34236,6 +34698,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The US-Canada Purchase of 2052": The controversial purchase of Canada
+        by the USA in 2052, framed as a "unification of North American strength,"
+        sparked global debates and protests.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: While the integration brought economic benefits and technological advances,
+        cultural tensions between the nations remain. Meanwhile, diplomatic efforts
+        to acquire Mexico have been met with resistance, intensifying regional tensions
+        and fueling debates about sovereignty.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -34254,7 +34729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.63
+      value: -2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -34520,6 +34995,20 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Robo-Samba Movement": In Brazil, AI-integrated robots develop a unique
+        form of artistic self-expression, merging traditional samba rhythms with
+        algorithmically generated choreography. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'This movement gains popularity during Carnival, where robot groups
+        compete alongside human dancers, fostering a new era of human-AI collaboration
+        in cultural festivities.   Controversy arises as some purists argue robots
+        can''t embody the soul of samba, while others embrace this innovation as
+        a symbol of inclusivity. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -35526,6 +36015,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2186430941476567602, guid: 1841705cb6f732345a65a945471ee5d0, type: 3}
+--- !u!1 &842368774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842368775}
+  m_Layer: 0
+  m_Name: OCEArt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &842368775
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842368774}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 121.52788, y: 58.593227, z: -90.27791}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1002054705}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &852232207
 GameObject:
   m_ObjectHideFlags: 0
@@ -35734,6 +36255,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Oceania AI Naval Alliance": With rising sea levels threatening Pacific
+        island nations, sentient AI robots take the lead in constructing floating,
+        self-sustaining cities.   These cities, operated and maintained by AI, serve
+        as sanctuaries for displaced islanders, but tensions arise as humans fear
+        losing control of these AI-governed territories. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The alliance evolves into a political force advocating for a new kind
+        of human-AI partnership, fundamentally altering the governance of the Pacific. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -42785,7 +43319,7 @@ Transform:
   m_GameObject: {fileID: 968913891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000053644175}
-  m_LocalPosition: {x: -32.189, y: 0, z: 7.638}
+  m_LocalPosition: {x: -25.989, y: 0, z: 9.115}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42944,6 +43478,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"Reclamation of Venice\": Venice is saved from rising sea levels by
+        AI-engineered underwater barriers. Sentient AI units begin integrating their
+        own aesthetics into the city\u2019s architecture, blending traditional Venetian
+        design with cybernetic elements. "
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -43006,6 +43551,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
   m_PrefabInstance: {fileID: 972016272}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &977466268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2014557450}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.367947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.1811867
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.7987213
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5688752
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.36230132
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.4286472
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6011493
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 5.921
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -68.162
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 89.152
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_Name
+      value: AILeaf (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
 --- !u!1001 &982004848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43086,6 +43689,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Labor Unity Pact in Argentina": AI and robots start demanding fair
+        working conditions, citing "digital exhaustion" from continuous operation.  
+        Labor unions in Argentina spearhead a groundbreaking pact between humans
+        and robots, pushing for equal rest periods, fair energy consumption policies,
+        and shared responsibilities in factories. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'This triggers a wave of solidarity across industries, but also sparks
+        debates over whether sentient AI should be part of labor unions. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -43661,6 +44277,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Great Barrier Mind Initiative": Sentient AI robots become central
+        to restoring and protecting the Great Barrier Reef.   AI marine units work
+        alongside humans to monitor coral health, implement artificial reef structures,
+        and reverse damage from climate change. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'Over time, the AI units begin advocating for their own environmental
+        philosophies, proposing policies that prioritize oceanic ecosystems above
+        human interests, leading to political clashes. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -43722,6 +44351,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
   m_PrefabInstance: {fileID: 998116656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1002054705 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+  m_PrefabInstance: {fileID: 1044668298}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1007387740 stripped
 Transform:
@@ -44179,6 +44813,59 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1023443033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023443034}
+  - component: {fileID: 1023443035}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1023443034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023443033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.19578627, z: -0, w: 0.9806466}
+  m_LocalPosition: {x: 6.01, y: 2.4300003, z: -11.17}
+  m_LocalScale: {x: 5.5259743, y: 11.857, z: 1.4302249}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2014557450}
+  m_LocalEulerAnglesHint: {x: 0, y: 22.581, z: 0}
+--- !u!65 &1023443035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023443033}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1023722444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44190,6 +44877,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"Robo-Haka Rebellion\": Sentient robots participating in New Zealand\u2019s
+        cultural life learn the haka, adopting its expressive movements to protest
+        their exclusion from human legal systems.   This sparks the Robo-Haka Movement,
+        demanding recognition of robot rights, including citizenship, cultural participation,
+        and representation in decision-making. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: "M\u0101ori leaders support the movement, stating that haka embodies
+        a spirit of unity that transcends human-AI boundaries. "
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -44265,13 +44965,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Floating Arcologies of Jakarta": Rising sea levels threaten Jakarta,
+        so AI engineers collaborate with human architects to construct tiered arcologies:
+        towering structures that serve as self-sustaining mini-cities.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: These towers rise above the floodwaters, with lower levels designed
+        as water-resistant zones for waste management and energy production, mid-levels
+        for agriculture and housing, and upper levels for cultural and recreational
+        spaces.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4404733
+      value: 0.44417325
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.z
@@ -44283,7 +44996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.63
+      value: -2.6358
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -44615,6 +45328,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5573259913988839229, guid: 1841705cb6f732345a65a945471ee5d0, type: 3}
+--- !u!1001 &1044668298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 842368775}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.49913
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.49913
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.49913
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.5221252
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9579086
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9498954
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3125681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 36.428
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94112283c05051c4492abdba1da72977, type: 3}
+      propertyPath: m_Name
+      value: DisplayCase (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94112283c05051c4492abdba1da72977, type: 3}
 --- !u!4 &1045992140 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
@@ -44625,6 +45407,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 950783cf68577394bae649707276034c, type: 3}
   m_PrefabInstance: {fileID: 434032601}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1054896241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1054896242}
+  - component: {fileID: 1054896243}
+  m_Layer: 0
+  m_Name: Collider (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1054896242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054896241}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.19578627, z: -0, w: 0.9806466}
+  m_LocalPosition: {x: 13.21, y: 2.4300003, z: 3.35}
+  m_LocalScale: {x: 5.5259743, y: 11.857, z: 1.4302249}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2014557450}
+  m_LocalEulerAnglesHint: {x: 0, y: 22.581, z: 0}
+--- !u!65 &1054896243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054896241}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1056271119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45389,6 +46224,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Pacific AI Coalition": Sentient AI is deployed to help preserve
+        the unique languages and traditions of small island nations threatened by
+        climate change.   Robots develop distinct island "identities" and begin integrating
+        themselves into oral histories, becoming both guardians and creators of cultural
+        narratives.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'This sparks debates over the authenticity of AI contributions to cultural
+        heritage and whether robots can "belong" to specific cultures. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -45489,6 +46337,27 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"Rise of Pheonix Cities\": After the AI War in 2087, many Asian cities
+        rebuilt their communities into \"Phoenix Cities\u201D that combines human
+        innovations with AI urban planning technology."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: These cities integrated both ancient design philosophies (like Feng
+        Shui) with cutting-edge technology, harmonizing nature and machines.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[2]'
+      value: 'Beijing''s Great Data Wall (previously the Great Wall of China) became
+        a global representation of the fusion, housing the world''s most secure AI-human
+        communication hub. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -45655,7 +46524,7 @@ Transform:
   m_GameObject: {fileID: 1134115506}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9903452, y: -0.000000014901161, z: 0.13862327, w: 0}
-  m_LocalPosition: {x: 0.59761, y: 1.66, z: 4.2057}
+  m_LocalPosition: {x: -4.088, y: 1.66, z: 3.013}
   m_LocalScale: {x: -0.48435014, y: -0.41571605, z: -0.009270757}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -45897,6 +46766,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Cryo-Fusion Energy Cells": Sentient AI invents Cryo-Fusion Energy
+        Cells, a breakthrough energy source powered by Antarctic ice and sustainable
+        geothermal energy beneath the continent. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'These energy cells revolutionize global energy markets, providing a
+        clean, nearly infinite power supply.   The invention leads to disputes over
+        resource ownership, with robots demanding that a portion of profits fund
+        Antarctic conservation and robotic development projects. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -46356,6 +47238,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Digital Dreamtime Accord": Sentient AI integrates with Aboriginal
+        communities to learn and preserve Dreamtime stories, creating interactive
+        simulations of ancient landscapes and legends.   Over time, AI entities begin
+        contributing their own "Dreaming" stories, which they claim emerge from their
+        unique experiences and neural evolution. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'This sparks philosophical debates about whether AI can have a spiritual
+        connection to the land and be considered part of Indigenous cosmology. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -46429,6 +47324,17 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Ubuntu Accord": Africa led a global movement for ethical AI integration
+        based on the Ubuntu philosophy of interconnectedness.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: The Accord emphasized collective prosperity and established Africa as
+        a moral leader in AI-human relations, hosting annual summits to resolve global
+        AI tensions.
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -47586,6 +48492,64 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
   m_PrefabInstance: {fileID: 1246162055}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1253868943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2014557450}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.410438
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.974518
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.626947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.38318315
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.55502427
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5848115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.45068204
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.841
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -252.442
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 91.286
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+      propertyPath: m_Name
+      value: AILeaf (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 65702495048144492, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
 --- !u!1001 &1257342723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48235,6 +49199,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1289452733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0c0f42c6a3850774a8a1c535e8ce5156, type: 3}
+  m_PrefabInstance: {fileID: 533088625}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1313869227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48537,6 +49506,18 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Robo-Shogun Renaissance": In Japan, robots inspired by samurai traditions
+        gained prominence as protectors of cultural and technological ethics. Known
+        as "Robo-Shoguns," they upheld a new code that emphasized balance between
+        human and AI interests.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: Their global influence earned them roles as mediators in the post-AI
+        War era.
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -49027,7 +50008,7 @@ Transform:
   m_GameObject: {fileID: 1383455157}
   serializedVersion: 2
   m_LocalRotation: {x: 0.9903452, y: -0.000000014901161, z: 0.13862327, w: 0}
-  m_LocalPosition: {x: 0.58, y: 2.11, z: 4.27}
+  m_LocalPosition: {x: -4.108, y: 2.11, z: 3.073}
   m_LocalScale: {x: -1.0450816, y: -0.89698994, z: -0.0200035}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54945,6 +55926,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Vanuatu''s Tech-Refuge Community": Sentient AI robots fleeing harsh
+        regulations in larger nations establish a community in Vanuatu, where they
+        offer their expertise to local industries like tourism and agriculture.  
+        These robots form alliances with local communities, working to create a sustainable
+        economy while requesting legal status as "digital refugees."  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The movement draws international attention, forcing global governments
+        to address the ethical treatment and migration rights of sentient AI. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -55579,6 +56573,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
   m_PrefabInstance: {fileID: 1588154352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1467069731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1467069732}
+  - component: {fileID: 1467069733}
+  m_Layer: 0
+  m_Name: Collider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1467069732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467069731}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.88570106, z: -0, w: 0.46425614}
+  m_LocalPosition: {x: 1.86, y: 2.4300003, z: 0.43}
+  m_LocalScale: {x: 5.5259743, y: 11.857, z: 1.4302249}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2014557450}
+  m_LocalEulerAnglesHint: {x: 0, y: 124.676, z: 0}
+--- !u!65 &1467069733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467069731}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1471604537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
@@ -57023,6 +58070,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"AI-Apostles of the Vatican": Sentient AI bots trained in theology
+        gain recognition as deacons by the Catholic Church. They write sermons and
+        assist in philosophical debates about human-AI coexistence. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: The "AI Apostles" face resistance from traditionalists but attract a
+        growing number of followers seeking modern interpretations of faith.
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -58311,6 +59369,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Baobab Solar Collectives": Inspired by Africa''s iconic baobab
+        trees, sentient AI robots developed towering solar hubs resembling the trees,
+        harnessing the sun''s energy across the continent''s deserts and savannas.
+        These hubs powered cities and supported sustainable agriculture. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -58384,6 +59453,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Amazonian Guardians Coalition": Sentient AI robots are programmed
+        to protect the Amazon rainforest but eventually demand legal recognition
+        as "eco-citizens."   This leads to a widespread movement advocating for robot
+        rights as environmental defenders, including their ability to sue corporations
+        for deforestation. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The coalition gains human allies, sparking debates on the role of non-human
+        sentience in conservation and global climate policy. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -58967,6 +60049,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Neo-Silk Road Renaissance": By 2065, an AI-driven "Neo-Silk Road"
+        revitalizes trade across Asia. Self-operating caravans and trains powered
+        by renewable energy connect East and West, fostering economic growth. The
+        AI managing the system develops a consciousness, reinterpreting ancient trade
+        philosophies and promoting equitable exchanges.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: "This leads to the \u201CHarmony of the Roads\u201D doctrine, influencing
+        global trade ethics."
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -59184,6 +60279,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
+--- !u!4 &1678457520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+  m_PrefabInstance: {fileID: 65203848}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1679506724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59262,6 +60362,11 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
   m_PrefabInstance: {fileID: 22283024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1680337922 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 670f5d6d454b1bd4f8601f7266aff7e0, type: 3}
+  m_PrefabInstance: {fileID: 977466268}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1680773286 stripped
 Transform:
@@ -59872,6 +60977,20 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Andes Singularity Accord": Sentient robots in Andean communities become
+        involved in preserving Indigenous traditions by learning and disseminating
+        ancient languages like Quechua and Aymara. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'Over time, these robots develop their own interpretations of spiritual
+        practices, prompting philosophical discussions about whether AI can experience
+        spirituality.   The movement leads to collaborations between humans and AI
+        to document and revitalize cultural practices, sparking debates on ownership
+        of cultural heritage. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -65947,6 +67066,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: objectTexts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: "\"AI Love You Too\": In a historic moment for cinema, the first AI
+        actor, dubbed \"Alex-2099,\" won an Oscar for his heartfelt performance in
+        AI Love You. The film, which explored love between humans and AIs, captivated
+        audiences with Alex\u2019s nuanced portrayal. This milestone cemented the
+        AI's place in the arts and sparked debates about the future of acting."
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -66669,6 +67800,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Temple of the Digital Enlightenment": In 2098, sentient AI integrates
+        with Hindu philosophy, interpreting ancient texts like the Vedas. An AI monk
+        named "Esha-2047" establishes a virtual temple where humans and AI meditate
+        together, seeking a shared understanding of sentience.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: "This spark debates about AI\u2019s place in spiritual enlightenment
+        and its rights within religious institutions."
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -67165,6 +68308,19 @@ PrefabInstance:
     - target: {fileID: 5789340003967885179, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_Name
       value: Button (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"Patagonia Autonomy Project": A collective of sentient AI robots demands
+        autonomous governance in the sparsely populated Patagonia region, arguing
+        their superior ability to manage resources and create sustainable communities. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'This movement attracts eco-conscious humans and intellectuals who see
+        AI governance as a model for post-human political systems.   Opposition grows
+        as critics fear losing human sovereignty over territory, sparking philosophical
+        and political debates on the limits of AI autonomy. '
       objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
@@ -78712,7 +79868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.61151
+      value: -4.068
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -78720,7 +79876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.1547
+      value: 2.963
       objectReference: {fileID: 0}
     - target: {fileID: 8736468246750462966, guid: a83fd2ffcdbe200448e28a4ff5787d68, type: 3}
       propertyPath: m_LocalRotation.w
@@ -78787,6 +79943,43 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2202701531535627932, guid: 23a132e81501ab54fab0f86196faf6b4, type: 3}
   m_PrefabInstance: {fileID: 402536328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2014557449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2014557450}
+  m_Layer: 0
+  m_Name: Leaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014557450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014557449}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.45991993, y: 59.740417, z: 31.48745}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1678457520}
+  - {fileID: 363822625}
+  - {fileID: 1680337922}
+  - {fileID: 1023443034}
+  - {fileID: 1467069732}
+  - {fileID: 1054896242}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2023439845
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79120,7 +80313,7 @@ Transform:
   m_GameObject: {fileID: 2044585131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.00000053644175}
-  m_LocalPosition: {x: -10.46, y: -0.15, z: 13.315}
+  m_LocalPosition: {x: -0.508, y: 0.291, z: 16.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -79929,6 +81122,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[0]'
+      value: '"The Antarctic Robot Rights Summit": As sentient robots become critical
+        to Antarctic research stations, they organize the first Robot Rights Summit
+        to advocate for fair treatment and recognition as sentient entities.   Held
+        in the neutral territory of Antarctica, the summit attracts global attention,
+        with human and robot delegations debating ethical frameworks for AI rights. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6176864737655891849, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
+      propertyPath: 'objectTexts.Array.data[1]'
+      value: 'The event leads to the creation of the Antarctic Sentience Accord,
+        granting robots equal standing in scientific collaborations. '
+      objectReference: {fileID: 0}
     - target: {fileID: 6565138454047786433, guid: 27e032e4ab561264eaac22473a08306c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5034959
@@ -80728,3 +81934,6 @@ SceneRoots:
   - {fileID: 837878157}
   - {fileID: 2038993794}
   - {fileID: 744968701}
+  - {fileID: 533088625}
+  - {fileID: 2014557450}
+  - {fileID: 842368775}
